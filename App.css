@@ -1,0 +1,48 @@
+.divButtons {
+  display: flex;
+  gap: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 350px;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  margin-bottom: 20px;
+}
+.clickedButton {
+  background-color: #5c47d2;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+.unclickedButton {
+  background-color: white;
+  color: #5c47d2;
+  border-radius: 5px;
+  border: solid 1px #5c47d2;
+}
+.go {
+  background-color: green;
+  text-align: center;
+  padding: 5px;
+}
+.no {
+  background-color: red;
+  text-align: center;
+  padding: 5px;
+}
